@@ -18,7 +18,7 @@ POP AI is a powerful Chrome extension that provides intelligent text predictions
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pop-ai.git
+git clone https://github.com/jagan607/pop-ai.git
 ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/pop-ai/issues) on GitHub. 
+If you encounter any issues or have questions, please [open an issue](https://github.com/jagan607/Pop-AI/issues) on GitHub. 

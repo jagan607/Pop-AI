@@ -39,11 +39,9 @@ const API_CONFIG = {
 
 const openAIKey = '';
 
-// Add this function definition before getSuggestion
 function getIntelligentSuggestion(text, context) {
   debugLog('Getting intelligent suggestion with context:', context);
   
-  // Extract domain and page type from context
   const domain = context.domain || '';
   const pageType = context.pageType || 'general';
   
@@ -62,7 +60,6 @@ function getIntelligentSuggestion(text, context) {
       return "and check on the status of our previous conversation.";
     }
     
-    // Handle responses to specific message types
     if (lastMessage.toLowerCase().includes('discord')) {
       return "and I'm looking forward to collaborating on the platform.";
     }
@@ -221,7 +218,7 @@ function createContextualPrompt(text, context) {
   
   // Create a base prompt
   let prompt = `
-Complete the following text with a natural, helpful continuation. Remember, you are writing for a human, not a machine and write it as you are the user and you are writing to yourself. You are not the website owner, you are the user.
+Complete the following text with a natural, helpful continuation. Remember, you are writing as the user.
 Keep the continuation concise (1-2 sentences max).
 
 Context:

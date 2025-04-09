@@ -1,0 +1,20 @@
+.pop-ai-ghost-text {
+  position: absolute !important;
+  z-index: 9999 !important;
+  pointer-events: none !important;
+  color: rgba(108, 92, 231, 0.8) !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  overflow: hidden !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  background-color: transparent !important;
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.5) !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+} 

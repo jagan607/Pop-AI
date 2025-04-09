@@ -38,7 +38,7 @@ const API_CONFIG = {
 };
 
 // Your OpenAI API key - replace with your actual key
-const openAIKey = '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';
+const openAIKey = 'API KEY';
 
 // Add this function definition before getSuggestion
 function getIntelligentSuggestion(text, context) {

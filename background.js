@@ -37,8 +37,7 @@ const API_CONFIG = {
   model: 'gpt-3.5-turbo'
 };
 
-// Your OpenAI API key - replace with your actual key
-const openAIKey = 'API KEY';
+const openAIKey = '';
 
 // Add this function definition before getSuggestion
 function getIntelligentSuggestion(text, context) {
